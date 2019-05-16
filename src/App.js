@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
-import Home from "./components/home";
-
+import Footer from "./components/Footer";
 class App extends Component {
   render() {
     return (
       <div>
-        <Route path="/" component={Home} />
+        <Route path="/" component={Footer} />
       </div>
     );
   }
